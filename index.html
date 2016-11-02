@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<head>
+		<title>Movies search</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Including font styles-->
+	    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<!--Including style sheets-->
+	  	<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">	  	
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header> </header>
+			<div class="row"> 
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+		 			<h1 class="movieheading">Movies</h1>
+		  			<!-- Search section -->
+		  			<div class="search">
+		  			<p>
+		  			<input class="form-control" id="movie" name="Movie" placeholder="search movie by title" type="text" required><br>
+		  			<button type="button" id ="searchbutton" class="btn btn-primary btn-block">Search</button>
+		 			</p>
+		 			</div>
+		 		</div>
+		 		<div class="col-sm-4"></div>	
+			</div>
+			<div class="row"> 
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+				<!-- Section for Results -->
+	    		<div id="results"></div>
+	    		</div>
+	    		<div class="col-sm-4"></div>
+	    	</div>
+	    		<!-- container for page numbers -->
+	    	<div id="pagination"></div>
+	    </div>
+		<!-- including js scripts --> 
+	    <script src="./js/jquery-3.1.1.js"></script>
+	  	<script src="./js/bootstrap.min.js"></script>
+	  	<script src="./js/script.js"></script>
+	</body>
+</html>

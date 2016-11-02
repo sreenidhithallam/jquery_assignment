@@ -1,0 +1,63 @@
+header
+{
+ height:200px;
+}
+body
+{
+	background: white;
+}
+
+/* Search section */
+.search
+{
+	margin: auto;
+	padding-top: 10px;
+	width: 300px;
+}
+.movieheading
+{
+	font-family: 'Montserrat',arial-black;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+
+/*Section to display results */
+#results 
+{	
+	height: 250px;
+	margin: auto;
+}
+
+/*	class to store individual movie record */
+.line-content
+{	
+	width: 250px;
+	text-align: center;
+	height: auto;
+	border :2px solid gray;
+	font-size: 16px;
+	font-family: 'Montserrat',arial black;
+	margin:auto;
+	padding-top: 10px;
+	color: black;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.line-content:hover
+{	
+	border :2px solid black;
+}
+
+.current
+{
+  color: black;
+}
+
+#pagination li {
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+  color: steelblue;
+}
